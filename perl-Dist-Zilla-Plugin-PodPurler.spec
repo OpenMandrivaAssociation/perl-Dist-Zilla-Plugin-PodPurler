@@ -11,7 +11,12 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
 
-
+BuildRequires: perl(Dist::Zilla)
+BuildRequires: perl(List::MoreUtils)
+BuildRequires: perl(Moose)
+BuildRequires: perl(Moose::Autobox)
+BuildRequires: perl(PPI)
+BuildRequires: perl(Pod::Eventual)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
