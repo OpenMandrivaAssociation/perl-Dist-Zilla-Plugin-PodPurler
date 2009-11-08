@@ -16,7 +16,10 @@ BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Moose::Autobox)
 BuildRequires: perl(PPI)
+BuildRequires: perl(Pod::Elemental)
+BuildRequires: perl(Pod::Elemental::PerlMunger)
 BuildRequires: perl(Pod::Eventual)
+
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -46,5 +49,3 @@ rm -rf %buildroot
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
