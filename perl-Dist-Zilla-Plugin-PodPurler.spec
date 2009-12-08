@@ -1,5 +1,5 @@
 %define upstream_name    Dist-Zilla-Plugin-PodPurler
-%define upstream_version 0.093020
+%define upstream_version 0.093400
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
