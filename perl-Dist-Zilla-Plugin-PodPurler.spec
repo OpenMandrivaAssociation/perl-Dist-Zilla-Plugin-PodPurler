@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-PodPurler
-%define upstream_version 0.093400
+%define upstream_version 0.093401
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	Like PodWeaver, but more erratic and amateurish
 License:	GPL+ or Artistic
@@ -44,4 +44,5 @@ make test
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

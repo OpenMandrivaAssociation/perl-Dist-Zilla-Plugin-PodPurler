@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-PodPurler-0.093400.tar.gz: 2dd1b885ba764b964deda2451d4242bd2a37ac8e
 sources:
-  "Dist-Zilla-Plugin-PodPurler-0.093400.tar.gz": 2dd1b885ba764b964deda2451d4242bd2a37ac8e
+  Dist-Zilla-Plugin-PodPurler-0.093401.tar.gz: 221615502f29fe3c6f34809abd4462e34e0d01a0
